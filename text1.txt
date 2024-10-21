@@ -1,59 +1,6 @@
 class HelloWorld {
     public static void main(String[] args) {
-        int n=4;
-        for(int r=1;r<=n;r++){
-            for(int c=1;c<=n-r+1;c++){
-        System.out.print("* ");
-            }
-             System.out.println();
-        }
-         System.out.println();
-        for(int r=1;r<=n;r++){
-            for(int c=1;c<=n;c++){
-        System.out.print("* ");
-            }
-             System.out.println();
-        }
-         System.out.println();
-        for(int r=1;r<=n;r++){
-            for(int c=1;c<=r;c++){
-        System.out.print("* ");
-            }
-             System.out.println();
-        }
-         System.out.println();
-        for(int r=1;r<=n;r++){
-           for(int c=1;c<=r;c++){
-        System.out.print(r+" ");
-            }
-             System.out.println();
-        }
-         System.out.println();
-        for(int r=1;r<=n;r++){
-           for(int c=1;c<=r;c++){
-        System.out.print(c+" ");
-            }
-             System.out.println();
-        }
-         System.out.println();
-        for(int r=0;r<2*n;r++){
-            int tot= r>n ? 2*n-r : r;
-           for(int c=0;c<tot;c++){
-        System.out.print("* ");
-            }
-             System.out.println();
-        }
-         System.out.println();
-        for(int r=0;r<2*n;r++){
-            int tot= r>n ? 2*n-r : r;
-            int ns=n-t;
-            for(int s=0;s<ns;s++){
-                System.out.print(" ");
-            }
-           for(int c=0;c<tot;c++){
-        System.out.print("* ");
-            }
-             System.out.println();
-        }
+        
+     
     }
 }
